@@ -57,7 +57,7 @@ gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 
 group :development, :test do
-  gem 'sqlite3'
+  # gem 'sqlite3'
   gem 'rspec-rails'
   # The following optional lines are part of the advanced setup.
   gem 'guard-rspec'
@@ -93,8 +93,7 @@ end
 group :doc do
   gem 'sdoc', require: false
 end
-
+gem 'pg'
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
